@@ -16,7 +16,7 @@ namespace with function used to apply the sgm[1] optimization alghoritm
 * scanlineOptimization: recompute cost across a single scanline identified by previousPosition
 * sgmOptimization: apply sgm alghorithm using 8 different scanline 
 
-## confidence
+## stereo::confidence
 namespace with some confidence measure for stereo matching, given a DSI the produce a grey scale image with area with low confidence in black
 * matchingScoreMeasure
 * curvature
